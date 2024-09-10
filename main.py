@@ -21,11 +21,11 @@ def main():
     
     # uncomment the search_string and search_results once you implement search module
                   # Step 4: Search in JSON
-    # search_string = input("Enter a string to search in the JSON data: ")
-    # search_results = search.search_json(json.loads(json_data), search_string)
+    search_string = input("Enter a string to search in the JSON data: ")
+    search_results = search.search_json(json.loads(json_data), search_string)
     
                   # Print search results
-    # print("Search Results:\n", json.dumps(search_results, indent=4))
+    print("Search Results:\n", json.dumps(search_results, indent=4))
 
 if __name__ == "__main__":
     main()
